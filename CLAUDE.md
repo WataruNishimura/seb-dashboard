@@ -12,11 +12,16 @@ seb-dashboard/
 └── CLAUDE.md                  # This file - project context
 ```
 
+# Git Rule
+
+## Commit
+- Commit should includes Co-Author
+
 ## Conventional Commit
 - Commit message should follows conventional commit
 - Commit describtion should be written
 
-## Development process
+# Development process
 
 ### New feature
 
@@ -31,6 +36,7 @@ MUST create git commit each steps.
   - smaller issue is better
   - separate one feature into some task as much as possible
 5. when addressing issues, create branch and submit draft PR.
+  - connect issue with branch
 6. create test case for this issue
   - think deeply that test case should be exhastive, including edge case for this task
 7. implementation
@@ -38,6 +44,7 @@ MUST create git commit each steps.
 9. resolve the problem and re-try test
 10. when test succeeded, push them.
 11. request PR review to @WataruNishimura
+12. Before getting next issue, check pr review of issues
 
 ### Bug fix
 1. identify the issue and root cause
