@@ -91,6 +91,10 @@ MUST create git commit each steps.
 - **Testing**: Vitest for unit and integration tests
 - **Pre-push Hook**: Execute `pnpm lint --fix && pnpm prettier --write .`
 
+## CSS 
+- use CSS-modules and tailwind
+- NEVER use styled-components and css-in-js
+
 ### Naming Conventions
 - **Files & Folders**: kebab-case (e.g., `user-profile.tsx`, `auth-service.ts`)
 - **Components**: UpperCamelCase (e.g., `UserProfile`, `AuthForm`)
