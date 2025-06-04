@@ -12,14 +12,32 @@ seb-dashboard/
 └── CLAUDE.md                  # This file - project context
 ```
 
+## Conventional Commit
+- Commit message should follows conventional commit
+- Commit describtion should be written
+
 ## Development process
 
 ### New feature
 
 #### if requirements or requests given, following these steps:
+
+MUST create git commit each steps.
+
 1. update [requirements.md](./docs/designs/requirements.md)
 2. create specification design doc for this requirements
-3. implement the feature based on the specification
+3. think deeply detailed design and architecture of this specification and update document.
+4. create GitHub issue with `gh` for this feature
+  - smaller issue is better
+  - separate one feature into some task as much as possible
+5. when addressing issues, create branch and submit draft PR.
+6. create test case for this issue
+  - think deeply that test case should be exhastive, including edge case for this task
+7. implementation
+8. if test fails, check implementation and find what's the problem 
+9. resolve the problem and re-try test
+10. when test succeeded, push them.
+11. request PR review to @WataruNishimura
 
 ### Bug fix
 1. identify the issue and root cause
