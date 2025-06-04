@@ -44,7 +44,7 @@ MUST create git commit each steps.
 9. resolve the problem and re-try test
 10. when test succeeded, push them.
 11. request PR review to @WataruNishimura
-12. Before getting next issue, check pr review of issues
+12. if PR review is not finieshed, checkout new branch from this task branch and proceed it
 
 ### Bug fix
 1. identify the issue and root cause
@@ -83,6 +83,7 @@ MUST create git commit each steps.
 - **Package Manager**: pnpm (NOT npm or yarn)
 - **Package Versions**: Always use latest stable versions
 - **Language**: TypeScript (strict mode)
+- NEVER use paths, import alias and baseUrls
 
 ### Code Quality
 - **Linting**: ESLint with Flat Config
